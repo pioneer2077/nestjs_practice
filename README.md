@@ -1,6 +1,32 @@
-React is a JavaScript library for building user interfaces.
+## John Ahn님 Nest.JS 강의 클론코딩
 
-## A Simple Component
+Nest.JS 강의를 찾아보던 차, 무료로 제공해주시는 강의가 있어 스터디 할 수 있었습니다.
+감사합니다.
+[![john ahn님 유튜브 채널](https://github.com/pioneer2077/nextjs_practice/assets/134494401/6d49d091-48c0-4f3b-9fd6-4d8ea6054958)](https://www.youtube.com/@johnahn.)
+(클릭하시면 유튜브 채널로 이동합니다!)
+
+### 목차
+
+1. Nest.JS ?
+2. 프로젝트 구조
+3. 어려웠던 점
+4. 알게된 점
+5. 회고
+
+## Nest.JS ?
+
+Nest.JS는 효율적이고 안정적이며 확장 가능한 서버측 애플리케이션을 구축하기 위한 Node.js 프레임워크입니다.
+Express 위에서 작동하죠.
+<br />
+<br />
+따라서 Express의 라우팅 및 미들웨어 기능을 활용하면서,
+Nest.JS의 추가적인 기능과 프레임워크로서의 구조를 사용할 수 있어요.
+<br />
+<br />
+adidas, BMW, Red Hat 등 많은 대기업에서 사용중인
+<br />
+백엔드 프레임워크에요.
+<br />
 
 React components implement a `render()` method that takes input data and returns what to display. This example uses an XML-like syntax called JSX. Input data that is passed into the component can be accessed by `render()` via `this.props`.
 
@@ -11,7 +37,7 @@ class HelloMessage extends React.Component {
   }
 }
 
-root.render(<HelloMessage name='Taylor' />);
+root.render(<HelloMessage name="Taylor" />);
 ```
 
 ## Declarative
